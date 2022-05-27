@@ -1,0 +1,118 @@
+.pageheader, .pagefooter {
+			   clear: both;
+			   background-color: black;
+			   color:white;
+			   padding: 20px;
+			 }
+.column {
+		float: left;
+		color: green;
+		
+	}
+.menu   {
+		width: 20%;
+		padding: 10px;
+	}
+.content {
+		width: 75%;
+	 }
+.menu ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	 }
+.menu li {
+		paddin: 10px;
+		margin-bottom: 10px;
+		background-color: blue;
+		color: aqua;
+		text-decoration: bold;
+		text-align: center;
+	 }
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button {padding: 16px 100px;}
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+<style>
+body {
+  color:gold
+}
+
+h1 {
+  color: gold;
+}
+p {
+  color:purple;
+}
+
+</style>
+
+
+
+
+
+
+
+
